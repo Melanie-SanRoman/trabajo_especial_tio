@@ -18,6 +18,10 @@ function Calcular(id1, id2){
             resultado = eval(expresion);
             break;
         case "-":
+            resultado= num1 - num2
+             expresion = num1 - operador - num2;
+            resultado = eval(expresion);
+            break;
         case "/":
         case "*":
             					
