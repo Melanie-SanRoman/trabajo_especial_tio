@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Calculadora</h1>
+	<input type="text" id="txtValor1">
+	<select id="operadores">
+		<optgroup label="Operador">
+			<option value="+"> +</option>
+			<option value="-"> -</option>
+			<option value="*"> *</option>
+			<option value="/"> /</option>
+		</optgroup>
+	</select>
+	<input type="text" id="txtValor2"><br>
+	<input type="button" onclick="Calcular('txtValor1', 'txtValor2')" value="Calcular">
+	<input type="button" onclick="Limpiar('txtValor1', 'txtValor2')" value="Limpar">
+	<p id="salida">Resultado:</p>
+	<hr>
+</body>
+<script src="calculadora.js"></script>
+
+</html>
