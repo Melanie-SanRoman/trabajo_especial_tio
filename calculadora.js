@@ -14,13 +14,9 @@ function Calcular(id1, id2){
     {
         case "+":
             resultado= num1 + num2
-            let expresion = num1 + operador + num2;
-            resultado = eval(expresion);
             break;
         case "-":
             resultado= num1 - num2
-             expresion = num1 + operador + num2;
-            resultado = eval(expresion);
             break;
         case "/":
         case "*":
@@ -29,4 +25,6 @@ function Calcular(id1, id2){
             break;				
         
     }	
+
+    document.getElementById("salida").innerHTML = "Resultado: "+ resultado;
 }

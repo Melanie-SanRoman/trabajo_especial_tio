@@ -10,7 +10,8 @@
 
 <body>
 	<h1>Calculadora</h1>
-	<input type="text" id="txtValor1">
+	<p>Introducir los numeros a calcular</p>
+	<input type="number" id="txtValor1" placeholder="Valor 1">
 	<select id="operadores">
 		<optgroup label="Operador">
 			<option value="+"> +</option>
@@ -19,7 +20,7 @@
 			<option value="/"> /</option>
 		</optgroup>
 	</select>
-	<input type="text" id="txtValor2"><br>
+	<input type="number" id="txtValor2" placeholder="Valor 2"><br>
 	<input type="button" onclick="Calcular('txtValor1', 'txtValor2')" value="Calcular">
 	<input type="button" onclick="Limpiar('txtValor1', 'txtValor2')" value="Limpar">
 	<p id="salida">Resultado:</p>
