@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 Calculadora online con metodos basicos: sumar, restar, multiplicar y dividir
 
 Realizada para la materia Tecnologia de la Informacion en las Organizaciones
+=======
+Calculadora online con metodos basicos: sumar, restar, muktiplicar y dividir
+>>>>>>> master
